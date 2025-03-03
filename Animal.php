@@ -3,15 +3,15 @@
     class Animal {
 
         public $nome;
-        public $raça;
+        public $raca;
         public $qntPatas;
         public $cor;
         public $peso;
         public $tamanho;
 
-        public function __construct(Type $var = null) {
+        public function __construct(string $nome, string $raca, int $qntPatas, string $cor, string $peso, string $tamanho) {
             $this->nome = $nome;
-            $this->raça = $raça;
+            $this->raca = $raca;
             $this->qntPatas = $qntPatas;
             $this->cor = $cor;
             $this->peso = $peso;
@@ -19,7 +19,7 @@
         }
 
         public function falar(){
-            echo "Animal falando";
+
         }
 
     }
