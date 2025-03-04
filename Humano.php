@@ -14,7 +14,6 @@
             $this->idade = $idade;
             $this->endereco = $endereco;
             $this->contato = $contato;
-
         }
 
         public function getNome(){
@@ -23,11 +22,11 @@
 
         public function getIdade(){
           return $this->idade;
-        } 
+        }
 
         public function getEndereco(){
           return $this->endereco;
-        } 
+        }
 
         public function getContato(){
            return $this->contato;
